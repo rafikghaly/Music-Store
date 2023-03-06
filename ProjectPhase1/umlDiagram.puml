@@ -1,0 +1,20 @@
+@startuml
+abstract class User
+class Admin
+class Cart
+class Category
+class Customer
+class InsideCart
+class Main
+class Music
+class Store
+class java.util.ArrayList
+class java.util.Scanner
+Admin --|> User
+Cart ..> java.util.ArrayList
+Category ..> java.util.ArrayList
+Customer --|> User
+Main ..> java.util.ArrayList
+Main ..> java.util.Scanner
+Store ..> java.util.ArrayList
+@enduml
